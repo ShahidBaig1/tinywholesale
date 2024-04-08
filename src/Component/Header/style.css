@@ -1,0 +1,135 @@
+
+.container{
+    /* Light / White */
+
+background: #FFFFFF;
+/* Light / Divider */
+display: flex;
+border: 1px solid #E2E5E6;
+justify-content: space-around;
+height: 88px;
+align-items: center;
+}
+
+.btn{
+
+align-items: center;
+padding: 12px 18px;
+width: 143px;
+height: 42px;
+border: none;
+background: #00CCFF;
+border-radius: 50px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+.logoText{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+align-items: center;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+
+/* Accent / Default */
+
+color: #4B7CF8;
+}
+
+
+.navBar .navItems{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+    
+}
+
+.navBar .navItems li{
+    font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+/* Light / Black */
+
+color: #373F41;
+padding: 1em;
+
+
+}
+
+.btnSearch
+{
+    padding-left: 0.5em;
+}
+
+
+a{
+    text-decoration: none;
+    color: #373F41;
+}
+
+a:hover{
+border-bottom: 1px solid #00CCFF;
+}
+
+
+.bars{
+    display: none;
+}
+
+/* Media Query For NavBar Css */
+
+@media screen and (max-width: 760px) {
+
+    .container{
+        position: relative;
+        justify-content: space-between;
+        padding: 0em 2em;
+        transition: all 0.5s linear;
+    }
+
+    /* For Menu Items */
+    .container .navBar .navItems{
+        display: block;
+        position: absolute;
+        left: 0;
+        top:5.4em;
+        background-color: black;
+        color: blanchedalmond;
+        opacity: 0.9;
+        padding: 2em 0em;
+        width: 100vw;
+        margin-left: -1px;
+        text-align: center;
+        transition: all 1s ease;
+          }
+    
+
+    .container .btnDiv{
+        display: none;
+    }
+
+    .container .bars{
+        display: flex;
+        cursor: pointer;
+        
+    }
+
+    .container .block{
+        display: none;
+    }
+}
+

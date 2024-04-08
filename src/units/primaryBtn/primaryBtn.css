@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.primaryBtn {
+  font-family: Mulish;
+  width: 97px;
+  height: 42px;
+  background: #00ccff;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+@media (max-width: 420px) {
+  .primaryBtn {
+    width: 87px;
+    height: 32px;
+    font-size: 13px;
+  }
+}

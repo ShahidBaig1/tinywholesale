@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+html body {
+  margin: 0;
+}
+.marketplace_mainDiv_container {
+  height: 44em;
+  left: 0px;
+  top: 0px;
+  background: #0099bf;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.marketplace_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.marketplace_details {
+  width: 34.0625em;
+}
+.marketplace_button_container {
+  display: inherit;
+  align-content: flex-start;
+  width: 34.0625em;
+  margin-top: 30px;
+}
+.marketplace_mainTitle {
+  font-family: Mulish;
+  font-size: 4em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.marketplace_subTitle {
+  font-family: Mulish;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.marketplace_title {
+  font-family: Mulish;
+  font-size: 4em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+}
+.marketplace_paragraph {
+  width: 27em;
+  height: 8.5em;
+  font-family: Mulish;
+  font-weight: normal;
+  font-size: 0.875em;
+  line-height: 120%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  margin-top: 8px;
+}
+.marketplace_subDiv_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marketplace_image_container {
+  position: relative;
+  width: 14.5625em;
+  height: 27.4375em;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+
+  background-color: #ffffff;
+}
+.marketplace_shadowBox {
+  filter: drop-shadow(2px 4px 7px rgba(255, 255, 255, 0.8));
+}
+.marketplace_primaryImg {
+  position: absolute;
+  top: 2.3125em;
+  right: 0.625em;
+  z-index: 2;
+}
+.marketplace_secondaryImg {
+  position: absolute;
+  top: 14.8125em;
+  right: 0px;
+  z-index: 3;
+}
+.marketplace_button_container button {
+  margin-right: 1.875em;
+}
+@media (max-width: 1000px) {
+  .marketplace_mainDiv_container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.7fr 1fr;
+  }
+}
+@media (max-width: 920px) {
+  .marketplace_mainDiv_container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media (max-width: 860px) {
+  .marketplace_mainDiv_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .marketplace_subDiv_container {
+    display: none;
+  }
+}
+@media (max-width: 570px) {
+  .marketplace_mainDiv_container {
+    height: 30em;
+  }
+  .marketplace_mainTitle {
+    font-size: 3em;
+    line-height: 65px;
+  }
+  .marketplace_subTitle {
+    font-size: 2em;
+    line-height: 30px;
+  }
+  .marketplace_title {
+    font-size: 3em;
+    line-height: 65px;
+  }
+  .marketplace_details {
+    width: 25.0625em;
+  }
+
+  .marketplace_button_container {
+    width: 25.0625em;
+  }
+}
+@media (max-width: 420px) {
+  .marketplace_mainDiv_container {
+    height: 22em;
+  }
+  .marketplace_mainTitle {
+    font-size: 2em;
+  }
+  .marketplace_subTitle {
+    font-size: 1.5em;
+  }
+  .marketplace_title {
+    font-size: 2em;
+  }
+  .marketplace_paragraph {
+    font-size: 10px;
+  }
+  .marketplace_details {
+    width: 17.0625em;
+  }
+  .marketplace_button_container {
+    width: 17.0625em;
+  }
+}

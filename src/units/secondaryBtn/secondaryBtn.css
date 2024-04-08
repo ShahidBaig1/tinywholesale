@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.secondaryBtn {
+  font-family: Mulish;
+  width: 97px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+@media (max-width: 420px) {
+  .secondaryBtn {
+    width: 87px;
+    height: 32px;
+    font-size: 13px;
+  }
+}

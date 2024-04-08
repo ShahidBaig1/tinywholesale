@@ -1,0 +1,96 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.footer-container{
+    height: 358px;
+    width: 100%;
+     background: #0099BF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-head h1{
+        font-size: 48px;
+        Font-family: Manrope;
+       Font-style: ExtraBold;
+       color: #ffffff;
+       padding-top: 64px;
+       font-weight: 800;
+}
+.footer-head p{
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+
+}
+.footer-num{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,245px);
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+    padding-top: 70px;
+}
+.footer-num h2{
+    font-size: 48px;
+    color: #ffffff;
+}
+.footer-num p{
+    font-size:18px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-top: 7px;
+}
+.row1{
+    border-right: 1px solid #ffffff;
+}
+.row2{
+    border-right: 1px solid #ffffff;
+}
+.row3{
+    border-right: 1px solid #ffffff;
+}
+
+
+
+/* MEDIA QUARIES START HERE!!!! */
+
+
+
+@media(max-width: 1000px){
+    .footer-num{
+        width: 100%;
+        grid-template-columns: repeat(4,200px);
+    }
+}
+
+@media(max-width: 800px){
+    .footer-num{
+        width: 100%;
+        grid-template-columns: repeat(2,250px);
+    }
+    .footer-container{
+        height: auto;
+        padding-bottom: 30px ;
+    }
+   
+    .row2{
+        border: none;
+    }
+    .row3{
+        margin-top: 50px;
+    }
+    .row4{
+        margin-top: 46px;
+    }
+}
+
+
+@media(max-width: 530px){
+    .footer-num{
+        width: 100%;
+        grid-template-columns: repeat(2,150px);
+    }
+}
