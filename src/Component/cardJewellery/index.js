@@ -1,32 +1,43 @@
-import NftCardImg from "../../Asset/NftCard/18d1ef4655494b9d7f859a2c18cf2e93 1.png";
-import "./NftCardStyle.css";
-const NftCard = (props) => {
+import { Link } from "react-router-dom";
+import "./style.css";
+import Data from "./data";
+
+const JewelleryCard = () => {
   return (
     <>
-      <div className="nft_card">
+    
+      {Data.map(user =>(
+        <Link to='/jewellery'>
+        <div className="nft_card">
         <div className="nft_card_img_container">
-          <img className="nft_card_img" src={props.nft} />
+          <img className="nft_card_img" src={user.img} alt="pic here"/>
         </div>
         <div className="nft_card_details_container">
           <div className="nft_card_details_producer">
             <h3>Producer Name</h3>
-            <h3>{props.producerName}</h3>
+            <h3>{user.producerName}</h3>
           </div>
           <div className="nft_card_details_creator">
             <h3>Creator Name</h3>
-            <h3>{props.creatorName}</h3>
+            <h3>{user.creatorName}</h3>
           </div>
           <div className="nft_card_details_bid">
             <h3>Current Bid</h3>
-            <h3>{props.currentBid} ETH</h3>
+            <h3>{user.currentBid} ETH</h3>
           </div>
           <div className="nft_card_details_end">
             <h4>End in</h4>
-            <h4>{props.endIn}</h4>
+            <h4>{user.endIn}</h4>
           </div>
         </div>
-      </div>
+      </div> 
+           
+      </Link>
+     
+      ))}
+
+
     </>
   );
 };
-export default NftCard;
+export default JewelleryCard;

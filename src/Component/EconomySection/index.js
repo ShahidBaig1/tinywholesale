@@ -7,7 +7,7 @@ function Card() {
         <div>
             <div className='containerEconomy'>
             <div className='img_cont'>
-                <img src={one} alt="image here"/>
+                <img src={one} alt=" here"/>
             </div>
             <div className='inner_one'>
             <div className='inner'>
