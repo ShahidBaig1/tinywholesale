@@ -14,21 +14,21 @@ const JewelleryCard = () => {
         </div>
         <div className="nft_card_details_container">
           <div className="nft_card_details_producer">
-            <h3>Producer Name</h3>
-            <h3>{user.producerName}</h3>
+            <h3> {user.producerName}</h3>
+            
           </div>
           <div className="nft_card_details_creator">
-            <h3>Creator Name</h3>
-            <h3>{user.creatorName}</h3>
+            
+            <h3>{user.description}</h3>
           </div>
           <div className="nft_card_details_bid">
-            <h3>Current Bid</h3>
-            <h3>{user.currentBid} ETH</h3>
+            <h3>Current Price</h3>
+            <h3>{user.price}</h3>
           </div>
-          <div className="nft_card_details_end">
+          {/* <div className="nft_card_details_end">
             <h4>End in</h4>
             <h4>{user.endIn}</h4>
-          </div>
+          </div> */}
         </div>
       </div> 
            

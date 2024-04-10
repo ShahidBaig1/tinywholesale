@@ -24,7 +24,7 @@ const StationaryCard = ({user}) => {
             <h3>{user.description}</h3>
           </div>
           <div className="nft_card_details_bid">
-            <h3>Current Bid</h3>
+            <h3>Current Price</h3>
             <h3>{user.price}</h3>
           </div>
           {/* <div className="nft_card_details_end">

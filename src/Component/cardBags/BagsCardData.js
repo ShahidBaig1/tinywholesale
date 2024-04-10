@@ -41,7 +41,7 @@ const BagsCardData = [
     price: "30$",
   },
   {
-    img: cardImg1,
+    img: cardImg4,
     producerName: "shahid",
     description: "",
     price: "30$",
@@ -53,7 +53,7 @@ const BagsCardData = [
     price: "30$",
   },
   {
-    img: cardImg3,
+    img: cardImg4,
     producerName: "shahid",
     description: "",
     price: "30$",
