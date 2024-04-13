@@ -1,14 +1,14 @@
-import React from 'react'
-import BagsSection from "../../Component/bagsSection/index"
-
+import React from "react";
+import BagsCard from "../../Component/cardBags/BagCard";
 
 function BagsPage() {
-  return (<>
-    <div >
-        <BagsSection/>
+  return (
+    <>
+      <div>
+        <BagsCard />
       </div>
-      </>
-  )
+    </>
+  );
 }
 
-export default BagsPage
+export default BagsPage;

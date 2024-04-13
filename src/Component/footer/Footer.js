@@ -1,3 +1,4 @@
+import ScrollToTopButton from "../scrollToTop";
 import "./style.css";
 
 
@@ -23,6 +24,7 @@ const Footer = () => {
 <div className="footer-end">
         <h2><i class="far fa-copyright"></i>Tiny Whole Sale 2024</h2>
       </div>
+      <ScrollToTopButton/>
   </div>
 
  )

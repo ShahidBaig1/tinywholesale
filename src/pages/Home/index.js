@@ -1,23 +1,18 @@
 import React from "react";
 import NftMarketplaceHome from "../../Component/marketPlaceHome/NftMarketplaceHome";
 import EconomySection from "../../Component/EconomySection";
-import BagsSection from "../../Component/bagsSection";
-import JewellerySection from "../../Component/jewellerySection";
-import StationarySection from "../../Component/stationarySection";
-
-
+import BagsCard from "../../Component/cardBags/BagCard";
+import JewelleryCard from "../../Component/cardJewellery/index";
+import StationaryCard from "../../Component/cardStationary/index";
 
 const Home = () => {
   return (
     <>
       <NftMarketplaceHome />
-      <BagsSection/>
-      <JewellerySection/>
-     <StationarySection/>
-       <EconomySection />
-     
-     
-
+      <BagsCard />
+      <JewelleryCard />
+      <StationaryCard />
+      <EconomySection />
     </>
   );
 };

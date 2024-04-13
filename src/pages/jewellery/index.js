@@ -1,14 +1,14 @@
-import React from 'react'
-import JewellerySection from "../../Component/jewellerySection/index"
-
+import React from "react";
+import JewelleryCard from "../../Component/cardJewellery";
 
 function JewelleryPage() {
-  return (<>
-    <div >
-       <JewellerySection/>
+  return (
+    <>
+      <div>
+        <JewelleryCard />
       </div>
-      </>
-  )
+    </>
+  );
 }
 
-export default JewelleryPage
+export default JewelleryPage;
