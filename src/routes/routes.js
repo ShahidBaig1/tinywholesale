@@ -10,6 +10,8 @@ import StationaryPage from "../pages/stationary";
 import DetailBags from "../pages/detailBags";
 import DetailJewellery from "../pages/detailJewellery";
 import DetailStationary from "../pages/detailstationary";
+import FAQ from "../Component/faqs";
+import AboutUs from "../pages/About";
 
 const Routers = () => {
   return (
@@ -18,12 +20,14 @@ const Routers = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bags" element={<BagsPage />} />
-        <Route path="/contact-us" element={<ContactUS />} />
         <Route path="/jewellery" element={<JewelleryPage />} />
         <Route path="/stationary" element={<StationaryPage />} />
         <Route path="/bags/:id" element={<DetailBags />} />
         <Route path="/jewelery/:id" element={<DetailJewellery />} />
         <Route path="/stationary/:id" element={<DetailStationary />} />
+        <Route path="/contact-us" element={<ContactUS />} />
+        <Route exact path="/about" element={<AboutUs />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
       {/* <Footer1/>  */}
       <Footer />

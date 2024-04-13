@@ -28,6 +28,7 @@
 .navbar{
     display: flex;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 .navbar li{
     list-style: none;
